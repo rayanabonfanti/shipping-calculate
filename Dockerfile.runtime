@@ -1,0 +1,11 @@
+FROM alpine:latest
+
+RUN apk --no-cache add ca-certificates
+
+WORKDIR /root/
+
+COPY shipping-calculator .
+
+EXPOSE 8080
+
+CMD ["./shipping-calculator"]
