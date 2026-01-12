@@ -33,7 +33,7 @@ Esta aplicação fornece uma API REST para calcular custos de frete para pacotes
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/rayanabonfanti/shipping-calculator.git
+git clone https://github.com/rayanabonfanti/shipping-calculate.git
 cd shipping-calculator
 ```
 
